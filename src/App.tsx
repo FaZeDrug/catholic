@@ -1,11 +1,9 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Landing from './pages/landing';
 import Ezra from './pages/ezra';
 //below are the imports needed to route the navbar to diff pages
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { Link } from 'react-router-dom';
 
 
 
