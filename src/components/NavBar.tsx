@@ -10,21 +10,21 @@ type Link = {
     href: string;
 };
 
-const Links: React.FC<{}> = () => {
-    return (
-        <div className={styles['links']}>
-            {links.map((link: Link) => {
-                return(
-                    <div key={link.href} className={styles['link']}>
-                        <a href={link.href}>
-                            {link.label}
-                        </a>
-                    </div>
-                )
-            })}
-        </div>
-    );
-}
+// const Links: React.FC<{}> = () => {
+//     return (
+//         <div className={styles['links']}>
+//             {links.map((link: Link) => {
+//                 return(
+//                     <div key={link.href} className={styles['link']}>
+//                         <a href={link.href}>
+//                             {link.label}
+//                         </a>
+//                     </div>
+//                 )
+//             })}
+//         </div>
+//     );
+// }
 
 const NavBar: React.FC<{}>= () => {
   return (
