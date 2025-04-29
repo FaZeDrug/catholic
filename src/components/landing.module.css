@@ -1,0 +1,50 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* disables scroll */
+    height: 100vh;
+    width: 100vw;
+    background-color: #fefcf6;
+
+}
+  
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 100px;
+    height: calc(100vh - 70px); /* fill screen minus navbar height */
+    
+}
+
+.left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.verse {
+    font-size: 18px;
+    margin-left: 100px;
+    color: #1c1c1c;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 40px;
+}
+
+.grass {
+    max-width: 400px;
+    height: auto;
+}
+
+.right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jesus {
+    max-height: 600px;
+    width: auto;
+}

@@ -1,0 +1,27 @@
+{
+    "links":[
+        {
+            "label": "home",
+            "href": "/"
+        },
+        {
+            "label": "about",
+            "href": "/about"
+        },
+        {
+            "label": "ezra",
+            "href": "/ezra"
+        },
+        {
+            "label": "rosary",
+            "href": "/rosary"
+        },
+        {
+            "label": "sign in",
+            "href": "/signin"
+        }
+        
+
+    ]
+    
+}
