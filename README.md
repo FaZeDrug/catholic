@@ -1,46 +1,47 @@
-# Getting Started with Create React App
+# ✨ Daily Faith
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Created by Natasha Tran
 
-## Available Scripts
+[Live Site 🌿](https://dailyfaith.netlify.app/)
 
-In the project directory, you can run:
+**Daily Faith** is a calming web app designed to help users build a daily spiritual practice through reflection, prayer, and journaling. Inspired by my own journey exploring Catholicism, this app creates a digital space for peaceful, consistent faith-based reflection.
 
-### `npm start`
+<img width="1507" alt="image" src="https://github.com/user-attachments/assets/dcb5cbfe-dd03-4f52-8b24-92a3c1720fea" />
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<img width="1509" alt="image" src="https://github.com/user-attachments/assets/5f70aa2e-c04d-456a-974b-4797e607c179" />
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🌱 Features
 
-### `npm run build`
+- 📖 **Landing Page**: Daily Bible verse and soft, calming UI to encourage reflection.
+- 💬 **Ezra AI Chat Companion** (in progress): A journaling/chat feature to let users share their daily thoughts and receive comforting, faith-based responses.
+- 🧘 **Minimalistic, Peaceful Design**: Focused on simplicity and mental clarity.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**Future plans:**
+- 📝 Daily Rosary prayer guide
+- 💬 Integrate [Letta AI](https://www.letta.ai/) to provide memory-based journaling and conversation
+- 📈 Progress tracking and personal reflection logs
+- 🎙️ Optional voice journaling (long term)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🛠️ Tech Stack
 
-### `npm run eject`
+- **Frontend**: React.js + TypeScript
+- **Routing**: React Router DOM
+- **Styling**: CSS Modules + Tailwind CSS
+- **Deployment**: Netlify
+- **Backend**: *(In progress)* Node.js + Express.js for secure Letta AI integration
+- **AI Integration**: Letta AI SDK (coming soon!)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+---
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🚀 Getting Started (for local development)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+1. **Clone the repo**:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+   ```bash
+   git clone https://github.com/your-username/daily-faith.git
+   cd daily-faith
